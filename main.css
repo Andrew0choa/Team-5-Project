@@ -1,9 +1,10 @@
 :root {
-    --primary-color: #8c4b4b;
-    --accent-color: #d4a373;
-    --bg-color: #fdfaf6;
-    --text-color: #333333;
-    --text-light: #777777;
+    /* Teal + brown palette */
+    --primary-color: #007f7f;   /* main teal */
+    --accent-color:  #a1604d;   /* warm brown accent */
+    --bg-color:      #f5f5dc;   /* soft beige background */
+    --text-color:    #222222;   /* main text */
+    --text-light:    #666666;   /* secondary text */
 }
 
 /* Enable smooth scrolling for in-page links */
@@ -70,7 +71,7 @@ body {
 /* Hero */
 .hero {
     padding: 6rem 1rem 4rem;
-    background: linear-gradient(to right, #fbe9e7, #fff3e0);
+    background: linear-gradient(to right, #a8d4d1, #f5f5dc);
 }
 
 .hero-content {
@@ -106,7 +107,7 @@ body {
 }
 
 .btn-primary:hover {
-    background-color: #703838;
+    background-color: #005f5f;
     transform: translateY(-1px);
 }
 
@@ -152,7 +153,7 @@ body {
 .service-card h3 {
     margin-top: 0;
     margin-bottom: 0.5rem;
-    color: var(--primary-color);
+    color: var(--accent-color);
 }
 
 .service-card p {
@@ -176,7 +177,7 @@ body {
 }
 
 .highlight {
-    background-color: #ffefc1;
+    background-color: #ffe9c4;
     padding: 0 0.2rem;
 }
 
@@ -204,7 +205,7 @@ body {
 .testimonial-author {
     margin-top: 0.75rem;
     font-weight: 600;
-    color: var(--primary-color);
+    color: var(--accent-color);
 }
 
 /* Specials */
@@ -284,7 +285,7 @@ body {
 
 /* Footer */
 .footer {
-    background: #222222;
+    background: #2f2a24;
     color: #f0f0f0;
     padding: 2rem 1rem;
     text-align: center;
@@ -331,7 +332,7 @@ body {
     text-align: center;
 }
 
-/* Responsive */
+/* Responsive layouts */
 @media (min-width: 700px) {
     .services-grid {
         grid-template-columns: repeat(3, 1fr);
