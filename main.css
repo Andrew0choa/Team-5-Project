@@ -386,7 +386,6 @@ pre code {
   padding: 0;
 }
 
-/* Buttons */
 .btn {
   display: inline-flex;
   align-items: center;
@@ -465,7 +464,6 @@ pre code {
   cursor: not-allowed;
 }
 
-/* Form elements */
 .form-control {
   display: block;
   width: 100%;
@@ -529,7 +527,6 @@ select.form-control {
   margin-bottom: var(--space-16);
 }
 
-/* Card component */
 .card {
   background-color: var(--color-surface);
   border-radius: var(--radius-lg);
@@ -553,7 +550,6 @@ select.form-control {
   border-bottom: 1px solid var(--color-card-border-inner);
 }
 
-/* Status indicators - simplified with CSS variables */
 .status {
   display: inline-flex;
   align-items: center;
@@ -603,7 +599,6 @@ select.form-control {
     rgba(var(--color-info-rgb, 98, 108, 113), var(--status-border-opacity));
 }
 
-/* Container layout */
 .container {
   width: 100%;
   margin-right: auto;
@@ -633,7 +628,6 @@ select.form-control {
   }
 }
 
-/* Utility classes */
 .flex {
   display: flex;
 }
@@ -704,7 +698,6 @@ select.form-control {
   display: none;
 }
 
-/* Accessibility */
 .sr-only {
   position: absolute;
   width: 1px;
@@ -722,7 +715,6 @@ select.form-control {
   outline-offset: 2px;
 }
 
-/* Dark mode specifics */
 [data-color-scheme="dark"] .btn--outline {
   border: 1px solid var(--color-border-secondary);
 }
@@ -733,7 +725,6 @@ select.form-control {
     format('woff2');
 }
 
-/* END PERPLEXITY DESIGN SYSTEM */
 :root {
     --primary-color: var(--color-teal-700);
     --accent-color: var(--color-brown-600);
@@ -762,7 +753,6 @@ body {
     background-color: var(--light-bg);
 }
 
-/* ========== NAVIGATION ========== */
 .navbar {
     background-color: var(--primary-color);
     padding: 0;
@@ -849,7 +839,6 @@ body {
     }
 }
 
-/* ========== HERO SECTION ========== */
 .hero {
     background: linear-gradient(135deg, rgba(26,104,115,0.95) 0%, rgba(94,82,64,0.3) 100%),
                 url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600"><defs><pattern id="dots" x="0" y="0" width="100" height="100" patternUnits="userSpaceOnUse"><circle cx="50" cy="50" r="2" fill="%23ffffff" opacity="0.1"/></pattern></defs><rect width="1200" height="600" fill="%231a6873"/><rect width="1200" height="600" fill="url(%23dots)"/></svg>');
@@ -906,7 +895,6 @@ body {
     border: 2px solid var(--accent-color);
 }
 
-/* ========== MAIN CONTENT ========== */
 .container {
     max-width: var(--container-xl);
     margin: 0 auto;
@@ -951,7 +939,6 @@ body {
     font-size: var(--font-size-md);
 }
 
-/* ========== SERVICES GRID ========== */
 .services-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -995,7 +982,6 @@ body {
     margin-bottom: var(--space-8);
 }
 
-/* ========== ABOUT SECTION ========== */
 .about-content {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -1034,7 +1020,6 @@ body {
     }
 }
 
-/* ========== TESTIMONIALS ========== */
 .testimonial-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -1066,7 +1051,6 @@ body {
     margin-bottom: var(--space-8);
 }
 
-/* ========== LOCATION SECTION ========== */
 .location-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -1109,7 +1093,6 @@ body {
     }
 }
 
-/* ========== CONTACT FORM ========== */
 .contact-form {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -1187,7 +1170,6 @@ body {
     display: block;
 }
 
-/* ========== SPECIALS SECTION ========== */
 .specials-list {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -1211,7 +1193,6 @@ body {
     font-size: var(--font-size-xl);
 }
 
-/* ========== FOOTER ========== */
 .footer {
     background-color: var(--primary-color);
     color: var(--white);
@@ -1251,7 +1232,6 @@ body {
     font-size: var(--font-size-lg);
 }
 
-/* ========== UTILITIES ========== */
 .text-center {
     text-align: center;
 }
