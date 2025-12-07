@@ -554,7 +554,7 @@ select.form-control {
 
 .hero {
     background: linear-gradient(135deg, rgba(26,104,115,0.8) 0%, rgba(94,82,64,0.5) 100%),
-                url('./hero-bg.jpg');
+                url(/images/massage\ project.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
