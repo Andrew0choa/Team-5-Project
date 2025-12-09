@@ -135,6 +135,11 @@
   box-sizing: border-box;
 }
 
+img {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 html {
   font-size: var(--font-size-base);
   font-family: var(--font-family-base);
