@@ -136,7 +136,7 @@
 }
 
 
-hero-content img {
+.hero-content img {
   display: block;
   margin: 0 auto 1rem;              
   width: clamp(120px, 20vw, 200px); 
